@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#newPatientForm
+{
+	margin: 20%;
+	text-align: center;	
+}
+
+#title
+{
+	background:#7C2223
+}
+
+#newPatientForm h3
+{
+	padding-left: 10px;
+}
+
+#newPatientForm input[type=submit]
+{
+	margin: 5%;
+}
+
+#newPatientForm input[type=reset]
+{
+	margin: 5%;
+}

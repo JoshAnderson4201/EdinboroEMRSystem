@@ -1,0 +1,166 @@
+body{
+		color:#000000;
+		background-color:#A61316;
+	}
+#emrWrapper {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	border: thin solid #999;
+	padding: 10px;
+	background:#FFFFFF;
+	box-shadow: 3px 3px 12px 3px #999;
+	}
+
+h2 {
+	text-align:center;
+}
+header {
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+#main{
+	text-align:center;
+	align-content:center;
+}
+
+#main a:link {
+	text-decoration:none;
+}
+
+.enter{
+	display:inline-block;
+	margin: 20px;
+}
+
+#instructor {
+	padding: 15px;
+	border: medium solid #A51316;
+	width: 300px;
+	text-align: center;
+	position:relative;
+	color: #000000;
+}
+
+#student {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 15px;
+	border: medium solid #A51316;
+	width: 300px;
+	text-align: center;
+	position:relative;
+	color: #000000;
+}
+
+#about {
+	margin: 50px 25px 50px 15px;
+	padding: 15px;
+	border: medium solid #A51316;
+}
+
+#newPat {
+	margin: 20px;
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	border: medium solid #A51316;
+}
+
+.box_for_text {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #A61316;
+	font-size: 14px;
+	padding: 7px;
+	border: thin solid #666;
+	text-transform: uppercase;
+	background-color: #ABABAB;
+}
+
+footer {
+	font-family: Verdana, Geneva, sans-serif;
+	border: thin solid #003700;
+	color: #A61316;
+	background-color: #fff;
+	text-align: center;
+	margin: 0px;
+	font-size: small;
+}
+
+/**************** NAV *************/
+nav {
+	top: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+	color: #B4B4B4;	
+}
+
+table td {
+	background-color:white;
+}
+
+.patientTableContainer {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+.patientTable {
+	border: 1px solid black;
+}
+
+.patientTable td {
+	border: 1px solid black;
+	
+}
+
+.patientTable th {
+	color: white;
+	border: 1px solid black;
+	background-color: #A61316;	
+}
+
+.patientInfoBar {
+	padding-bottom: 20px;
+	background-color: #ffffcc;
+	width: 100%;
+	
+}
+
+.row {
+	padding-bottom: 5px;
+	display: inline-block;
+	width: 100%;
+}
+
+.col {
+	float: left;
+	padding-right: 10px;
+}
